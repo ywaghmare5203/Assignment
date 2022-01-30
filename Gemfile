@@ -22,8 +22,6 @@ gem 'jwt'
 gem 'simple_command'
 gem 'active_model_serializers'
 
-gem 'pry'
-
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
