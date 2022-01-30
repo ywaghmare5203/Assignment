@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: 'welcome#index'
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :user, only: [:create, :show]
+      resources :user, only: [:create, :show, :index]
       post 'login', to: 'user#login'
-      resources :post, only: [:create, :update, :show]
+      resources :post, only: [:create, :index, :show]
       resources :comment, only: [:create]
       resources :like, only: [:create]
     end

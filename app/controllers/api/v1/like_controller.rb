@@ -5,7 +5,6 @@ class Api::V1::LikeController < Api::ApplicationController
 	def create
 		return generic_error unless @post
 		@like = Like.find_or_create_by(like_params)
-		puts "-----------------------#{@like.inspect}"
 		if @like.present?
 			@like.update!(like_params)
 			render json: {message: "Successfully Like This Post"}

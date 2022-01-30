@@ -19,6 +19,7 @@ gem 'puma', '~> 4.1'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'jwt'
+gem 'bcrypt'
 gem 'simple_command'
 gem 'active_model_serializers'
 
