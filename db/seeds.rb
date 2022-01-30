@@ -1,0 +1,1 @@
+user = User.create!([{email: 'ywaghmare5203@gmail.com',name: 'Yogesh Waghmare', username: "ywaghmare5203", password: "123456789", password_confirmation: "123456789"}, {email: 'hwaghmare5203@gmail.com',name: 'Harish Waghmare', username: "hwaghmare5203", password: "123456789", password_confirmation: "123456789"}])
