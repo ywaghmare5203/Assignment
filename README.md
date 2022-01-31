@@ -2,10 +2,10 @@
 
 # ------------------------User-------------------
 # Login
-# curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"email":"hwaghmare5203@gmail.com", "password":"123456789"}}'  http://localhost:3000/api/v1/login
+# curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"email":"test@gmail.com", "password":"123456789"}}'  http://localhost:3000/api/v1/login
 
 # Create User
-# curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"email":"awaghmare5203@gmail.com","name":"Anil Waghmare", "username":"awaghmare5203", "password":"123456789", "password_confirmation":"123456789"}}'  http://localhost:3000/api/v1/user
+# curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"email":"test@gmail.com","name":"Test", "username":"atest123", "password":"123456789", "password_confirmation":"123456789"}}'  http://localhost:3000/api/v1/user
 
 # Get All User
 # curl -H "Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcnkiOjE2NDM2MjAwOTF9.nUVnIuiLkb9XncLPmKWAoncJvuuSqStCAjVAwx_clnY" -H "Accept: application/json" -H "Content-type: application/json" -X GET http://localhost:3000/api/v1/user
