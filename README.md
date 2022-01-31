@@ -28,4 +28,3 @@
 # Create Like
 # curl -H "Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcnkiOjE2NDM2MjAwOTF9.nUVnIuiLkb9XncLPmKWAoncJvuuSqStCAjVAwx_clnY" -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"like":{"likeable_id":1, "likeable_type":"post"}}'  http://localhost:3000/api/v1/like
 
-
